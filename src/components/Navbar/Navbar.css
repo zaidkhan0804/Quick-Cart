@@ -3,6 +3,7 @@
     justify-content: space-around;
     box-shadow: 0 1px 3px -2px black;
     font-family: 'poppins';
+    height: 50px;
 }
 .nav-logo{
     display: flex;
@@ -11,18 +12,17 @@
 }
 .nav-logo p{
     color: rgb(193, 16, 16);
-    font-size: 38px;
+    font-size: 20px;
     font-weight: 600;
 }
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 100px;
+    gap: 70px;
     color:  #626262;
     font-size: 20px;
     font-weight: 500;
-
 }
 .nav-menu li{
     display: flex;
@@ -31,14 +31,10 @@
     justify-content: center;
     gap: 3px;
     cursor: pointer;
+    color: black;
 }
-.nav-menu hr{
-   border: none;
-   width: 80px;
-   height: 3px;
-   border-radius: 10px;
-   background-color: #ff4141;
-
+.nav-menu li:hover{
+     color: red;
 }
 .nav-logo-cart{
     display: flex;
@@ -46,20 +42,20 @@
     gap: 45px;
 }
 .nav-logo-cart button{
-    width: 157px;
-    height: 58px;
+    width: 80px;
+    height: 35px;
     outline: none;
-    border: 1px solid #7a7a7a;
-    border-radius: 75px;
-    color: white;
+    border: 1px solid gray;
+    border-radius: 17px;
+    color: black;
     font-size: 20px;
-    font-weight: 500;
-    background-color: black;
+    font-weight: 300;
+    background-color: white;
     cursor: pointer;
 }
 .nav-logo-cart button:hover{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 .nav-cart-count{
     width: 22px;
